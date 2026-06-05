@@ -1,6 +1,6 @@
 import Fastify, { FastifyInstance } from 'fastify'
 
-import { registerHealthRoutes } from '@/health/infrastructure/http/health-route'
+import { registerHealthRoutes } from './health/infrastructure/http/health-route'
 
 export async function createApp(): Promise<FastifyInstance> {
     const app = Fastify({
