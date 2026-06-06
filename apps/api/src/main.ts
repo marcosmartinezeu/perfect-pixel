@@ -1,5 +1,6 @@
 import { createApp } from './app'
 import { env } from './shared/infrastructure/config/env'
+
 async function bootstrap(): Promise<void> {
     const app = await createApp()
 
