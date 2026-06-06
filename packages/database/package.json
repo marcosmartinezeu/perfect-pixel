@@ -2,10 +2,15 @@
   "name": "@repo/database",
   "private": true,
   "dependencies": {
-    "@prisma/client": "^6.19.3",
-    "prisma": "^6.19.3"
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "pg": "^8.21.0",
+    "prisma": "^7.8.0"
   },
   "scripts": {
     "generate": "prisma generate"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0"
   }
 }
